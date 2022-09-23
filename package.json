@@ -1,0 +1,34 @@
+{
+  "name": "openapi-transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "eslint --ext=.ts,.tsx ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricWittmann/openapi-transformer.git"
+  },
+  "keywords": [],
+  "author": "Eric Wittmann <eric.wittmann@gmail.com> (https://github.com/EricWittmann/)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/EricWittmann/openapi-transformer/issues"
+  },
+  "homepage": "https://github.com/EricWittmann/openapi-transformer#readme",
+  "devDependencies": {
+    "@apicurio/eslint-config": "0.2.0",
+    "@types/node": "^18.7.18",
+    "@types/yargs": "^17.0.12",
+    "@typescript-eslint/eslint-plugin": "5.33.1",
+    "@typescript-eslint/parser": "5.33.1",
+    "eslint": "8.22.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@apicurio/data-models": "1.1.26",
+    "yargs": "^17.5.1"
+  }
+}
